@@ -46,7 +46,10 @@ module.exports = {
         // secondary
         concrete: '#95A5A6',
         asbestos: '#7F8C8D'
-      }
+      },
+      fontFamily: {
+        nunito: ['Nunito'],
+      },
     },
   },
   variants: {},
