@@ -22758,6 +22758,34 @@ video {
           animation: bounce 1s infinite;
 }
 
+.card {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.badge {
+  --bg-opacity: 1;
+  background-color: #E67E22;
+  background-color: rgba(230, 126, 34, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
